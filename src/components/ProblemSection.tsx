@@ -5,7 +5,7 @@ export default function ProblemSection() {
         {/* Texto da seção */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0 px-4">
           <h2 className="text-4xl font-extrabold mb-6 text-gray-900">
-            Meses de Treino, <span className="text-rose-600">Zero Resultados? 😔</span>
+            Meses de Treino, <span className="text-red-500">Zero Resultados? 😔</span>
           </h2>
 
           <p className="text-gray-700 mb-4 leading-relaxed">
@@ -18,7 +18,7 @@ export default function ProblemSection() {
           </p>
 
           <div className="mt-8">
-            <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg shadow-md">
+            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-md">
               Descubra Como Mudar Isso
             </button>
           </div>

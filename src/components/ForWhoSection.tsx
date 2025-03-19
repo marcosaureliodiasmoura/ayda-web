@@ -3,7 +3,7 @@ export default function ForWhoSection() {
     <section className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-12">
-          Para <span className="text-emerald-500 underline italic">quem</span> é?
+          Para <span className="text-green-500 underline italic">quem</span> é?
         </h2>
         <div className="bg-gray-800 p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">

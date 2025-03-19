@@ -3,7 +3,7 @@ export default function FeaturesSection() {
     <section className="py-16 bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-extrabold text-center mb-8 text-black">
-          Por Dentro do <span className="text-emerald-500">AYDA</span>
+          Por Dentro do <span className="text-green-500">AYDA</span>
         </h2>
         
         <div className="flex flex-col items-center mb-8">
@@ -13,7 +13,7 @@ export default function FeaturesSection() {
             className="rounded-lg shadow-lg max-w-full h-auto"
           />
           <p className="text-gray-600 mt-4 text-center">
-            Descubra como o <span className="font-semibold text-emerald-500">AYDA</span> pode revolucionar seus treinos com inteligência artificial.
+            Descubra como o <span className="font-semibold text-green-500">AYDA</span> pode revolucionar seus treinos com inteligência artificial.
           </p>
         </div>
         
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg">
+          <button className="w-md bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg">
             Descubra Mais
           </button>
         </div>
