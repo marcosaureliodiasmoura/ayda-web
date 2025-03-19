@@ -1,23 +1,30 @@
-// Adicionar font family Montserrat
-// Tamanho dos textos
-// cores 
-
 export default function HeroSection() {
   return (
-    <section className="bg-purple-900 text-white py-16 text-center">
+    <section className="bg-gradient-to-b from-gray-900 to-black text-white py-12 text-center">
       <div className="max-w-xl mx-auto px-4">
-        <h1 className="text-[25px] font-bold mb-4 text-[#ff4d4d]">
+
+        <h1 className="text-4xl md:text-5xl font-extrabold text-rose-600 leading-tight mb-4">
           Estagnado, Frustrado e Enrolado? <br />
-          <span className="text-[#4caf50]">Seu Corpo Merece Mais {' '}
+          <span className="text-emerald-500">
+            Seu Corpo Merece Mais {' '}
             <span className="text-white">
-              que <br/> Falsas Promessas!
+              que <br /> Falsas Promessas!
             </span>
           </span>
         </h1>
-        <p className="text-lg mb-8">
-          Descubra como milhares de pessoas estão superando desafios, vendo resultados reais e atingindo o corpo dos sonhos!
+
+        <p className="text-xl text-gray-400 mb-6">
+        Quebre o platô, veja resultados reais no espelho e deixe para trás as falsas promessas de 'gurus' que só querem seu dinheiro. 
+        <span className="text-white">{' '} É hora de transformar seu físico com <strong>inteligência</strong> e <strong>eficácia</strong>.</span>
         </p>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg">
+
+        <img
+          src="/assets/hero.png"
+          alt="Homem segurando um peso"
+          className="mx-auto mb-8 rounded-2xl shadow-2xl opacity-90 transition duration-300 hover:opacity-100"
+        />
+
+        <button className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-bold py-4 px-12 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
           QUERO ACESSAR AGORA
         </button>
       </div>

@@ -8,7 +8,7 @@ import SolutionSection from "@/components/SolutionSection";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
