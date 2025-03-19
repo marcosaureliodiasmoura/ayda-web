@@ -28,11 +28,11 @@ export default function ProblemSection() {
         <div className="w-full md:w-1/2 px-4">
           <div className="relative">
             <img
-              src="/assets/hero.png"
+              src="/assets/problem.png"
               alt="Pessoa pensativa na academia"
-              className="rounded-lg shadow-2xl w-full h-auto"
+              className="w-[400px] h-auto"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg opacity-20"></div>
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-lg opacity-20"></div> */}
           </div>
         </div>
       </div>
