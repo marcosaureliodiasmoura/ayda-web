@@ -8,7 +8,7 @@ import SolutionSection from "@/components/SolutionSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
@@ -19,3 +19,11 @@ export default function Home() {
     </div>
   );
 }
+
+// vigilancia sanitária recife
+// Nome, data, cpf e mae
+// R$ 400 + 3 % 
+// Exames 
+// Assinatura digital
+// mensagens perdidas, melhor os push de notificacoes 
+// retornou 

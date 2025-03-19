@@ -1,10 +1,18 @@
+// Adicionar font family Montserrat
+// Tamanho dos textos
+// cores 
+
 export default function HeroSection() {
   return (
-    <section className="bg-black text-white py-16 text-center">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold mb-4">
+    <section className="bg-purple-900 text-white py-16 text-center">
+      <div className="max-w-xl mx-auto px-4">
+        <h1 className="text-[25px] font-bold mb-4 text-[#ff4d4d]">
           Estagnado, Frustrado e Enrolado? <br />
-          <span className="text-green-500">Seu Corpo Merece Mais que Falsas Promessas!</span>
+          <span className="text-[#4caf50]">Seu Corpo Merece Mais {' '}
+            <span className="text-white">
+              que <br/> Falsas Promessas!
+            </span>
+          </span>
         </h1>
         <p className="text-lg mb-8">
           Descubra como milhares de pessoas estão superando desafios, vendo resultados reais e atingindo o corpo dos sonhos!
